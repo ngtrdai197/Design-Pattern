@@ -14,6 +14,7 @@ export class MotoBike extends Creator {
     return new MotoBikeModel();
   }
 
+  // override mission method
   public mission(): string {
     const product = this.factoryMethod();
     return `MotoBike -> Mission of product is ${product.operation()}`;
