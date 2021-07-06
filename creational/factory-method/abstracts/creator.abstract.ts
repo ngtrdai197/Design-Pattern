@@ -1,4 +1,4 @@
-import { ICar } from "factory-method/abstracts/car.interface";
+import { ICar } from "creational/factory-method/abstracts/car.interface";
 
 export abstract class Creator {
   protected abstract factoryMethod(): ICar; // or protected abstract product: ICar;
